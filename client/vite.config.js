@@ -7,4 +7,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    hmr: {
+      overlay: false, // Disable the error overlay
+    },
+  },
 })
